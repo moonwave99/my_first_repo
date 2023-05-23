@@ -47,3 +47,23 @@ git status
 On branch main
 nothing to commit, working tree clean
 ```
+
+## Fix the HTTPS vs SSH problem
+
+Open the git config in the editor:
+
+```
+code .git/config
+```
+
+Remove the final part:
+
+```
+[remote "origin"]
+	url = https://github.com/xxxxx/my_first_repo
+	fetch = +refs/heads/*:refs/remotes/origin/*
+```
+
+Copy the updated info from git and paste it into the terminal:
+
+![info](github.png)

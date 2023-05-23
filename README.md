@@ -67,3 +67,7 @@ Remove the final part:
 Copy the updated info from git and paste it into the terminal:
 
 ![info](github.png)
+
+## More info
+
+blabla
